@@ -1,0 +1,10 @@
+# JavaScript NodeJS
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-lib hxnodejs
+-cp src
+
+-cp test
+-js build/js_test.js
