@@ -1,13 +1,16 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest]
-        haxe: [4.0.5, 3.4.7]
+        os: [ubuntu-latest]
+        haxe: [4.0.5]
       fail-fast: true
     runs-on: ${{ matrix.os }}
     steps:
