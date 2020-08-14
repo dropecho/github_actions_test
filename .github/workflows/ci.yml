@@ -40,7 +40,7 @@ jobs:
 #         git add .
 #         git commit -m "Add changes" -a
     - name: Subtree push
-      uses: jbrooksuk/github-subtree-push-action
+      uses: jbrooksuk/github-subtree-push-action@v0.5.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: 'subtree_split_test'
