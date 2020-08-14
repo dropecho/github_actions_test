@@ -40,8 +40,11 @@ jobs:
 #         git add .
 #         git commit -m "Add changes" -a
     - name: Subtree push
-      uses: jbrooksuk/github-subtree-push-action@v0.5.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: 'subtree_split_test'
-        directory: './test'
+      run: |
+        git subtree split --prefix=test -b subtree_split_test_2
+        git push origin subtree_split_test_2
+#       uses: jbrooksuk/github-subtree-push-action@v0.5.0
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
+#         branch: 'subtree_split_test'
+#         directory: './test'
