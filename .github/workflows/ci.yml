@@ -30,20 +30,18 @@ jobs:
     - uses: actions/checkout@v2
     - name: Setup git user
       run: |
+        git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git config --local user.email "action
-    - name: Create local changes
-      run: |
-        echo stupid >> text.txt
-    - name: Commit files
-      run: |
-        git add .
-        git commit -m "Add changes" -a
-    - name: Subtree Split
-      run: |
-        git subtree split --prefix=test subtree_split_test 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+#     - name: Create local changes
+#       run: |
+#         echo stupid >> test/text.txt
+#     - name: Commit files
+#       run: |
+#         git add .
+#         git commit -m "Add changes" -a
+    - name: Subtree push
+      uses: jbrooksuk/github-subtree-push-action
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: 'subtree_split_test'
+        directory: './test'
