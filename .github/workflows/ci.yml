@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  unit_tests:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        haxe: [4.0.5]
+      fail-fast: true
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@master
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: ${{ matrix.haxe }}
+      - run: haxe -version
+      - run: haxelib install test.hxml --always
+
+      - name: Compile test code
+        run: haxelib run munit t
+  npm-publish:
+    needs: unit_tests
+    name: npm-publish
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@master
+    - name: Set up Node.js
+      uses: actions/setup-node@master
+    - name: Publish to NPM
+      uses: JS-DevTools/npm-publish@master
+      with:
+          token: ${{ secrets.NPM_TOKEN }}
+  subtree:
+    needs: unit_tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Setup git user
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    - name: Subtree push
+      run: |
+        git subtree split --prefix=test -b subtree_split_test_2
+        git push origin subtree_split_test_2
