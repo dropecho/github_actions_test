@@ -12,6 +12,13 @@
         "preset": "angular",
         "parserOpts": {
           "noteKeywords": [
+            "FEAT",
+            "FIX",
+            "CHORE",
+            "DOCS",
+            "REFACTOR",
+            "STYLE",
+            "TEST",
             "BREAKING CHANGE",
             "BREAKING CHANGES",
             "BREAKING"
