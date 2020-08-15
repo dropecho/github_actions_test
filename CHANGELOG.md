@@ -1,55 +1,28 @@
-## <small>0.1.8 (2020-04-21)</small>
+## <small>0.1.10 (2020-08-15)</small>
 
-* test publish to both haxelib & npm ([abd055c](https://github.com/dropecho/lib_example/commit/abd055c))
-
-
-
-## <small>0.1.7 (2020-04-21)</small>
-
-* Mark as public for npm ([450a9bb](https://github.com/dropecho/lib_example/commit/450a9bb))
-* Release 0.1.7 ([5bf7207](https://github.com/dropecho/lib_example/commit/5bf7207))
-* version ([809d04b](https://github.com/dropecho/lib_example/commit/809d04b))
-
-
-
-## <small>0.1.6 (2020-04-21)</small>
-
-* Fix website link ([5a1ec5c](https://github.com/dropecho/lib_example/commit/5a1ec5c))
-* Release 0.1.6 ([7772c0d](https://github.com/dropecho/lib_example/commit/7772c0d))
-* version ([70e95aa](https://github.com/dropecho/lib_example/commit/70e95aa))
-
-
-
-## <small>0.1.5 (2020-04-21)</small>
-
-* Cleanup ([46f40bd](https://github.com/dropecho/lib_example/commit/46f40bd))
-* Release 0.1.5 ([222ee91](https://github.com/dropecho/lib_example/commit/222ee91))
-* version ([865e8f6](https://github.com/dropecho/lib_example/commit/865e8f6))
-
-
-
-## <small>0.1.4 (2020-04-21)</small>
-
-* fix issue with npm/haxelib both trying to tag ([11e22eb](https://github.com/dropecho/lib_example/commit/11e22eb))
-* Release 0.1.4 ([8c8fcf6](https://github.com/dropecho/lib_example/commit/8c8fcf6))
-* Release v0.1.1 ([4a7abbd](https://github.com/dropecho/lib_example/commit/4a7abbd))
-* version ([d455afc](https://github.com/dropecho/lib_example/commit/d455afc))
-* version ([41fbd23](https://github.com/dropecho/lib_example/commit/41fbd23))
-
-
-
-## <small>0.1.1 (2020-04-21)</small>
-
-* 0.1.1 ([059fc55](https://github.com/dropecho/lib_example/commit/059fc55))
-
-
-
-## 0.1.0 (2020-04-21)
-
-* 0.1.0 ([f7ca949](https://github.com/dropecho/lib_example/commit/f7ca949))
-* Fix haxe submit call in package.json ([03e5d55](https://github.com/dropecho/lib_example/commit/03e5d55))
-* Intial commit ([069aaa4](https://github.com/dropecho/lib_example/commit/069aaa4))
-* more tweaks for versioning ([63cd55e](https://github.com/dropecho/lib_example/commit/63cd55e))
+* FIX: Correct repo address in package.json ([4b09296](https://github.com/dropecho/github_actions_test/commit/4b09296))
+* FEAT: Setup semantic release ([aa71699](https://github.com/dropecho/github_actions_test/commit/aa71699))
+* Add badge ([f86eec1](https://github.com/dropecho/github_actions_test/commit/f86eec1))
+* Create blank.yml ([24ab140](https://github.com/dropecho/github_actions_test/commit/24ab140))
+* Initial ([67f5fb1](https://github.com/dropecho/github_actions_test/commit/67f5fb1))
+* Update and rename blank.yml to ci.yml ([436b70b](https://github.com/dropecho/github_actions_test/commit/436b70b))
+* Update blank.yml ([5913f84](https://github.com/dropecho/github_actions_test/commit/5913f84))
+* Update blank.yml ([a8e3a3e](https://github.com/dropecho/github_actions_test/commit/a8e3a3e))
+* Update blank.yml ([de4135f](https://github.com/dropecho/github_actions_test/commit/de4135f))
+* Update ci.yml ([6b254cb](https://github.com/dropecho/github_actions_test/commit/6b254cb))
+* Update ci.yml ([cb08f1b](https://github.com/dropecho/github_actions_test/commit/cb08f1b))
+* Update ci.yml ([6b7a9c5](https://github.com/dropecho/github_actions_test/commit/6b7a9c5))
+* Update ci.yml ([3afa6fe](https://github.com/dropecho/github_actions_test/commit/3afa6fe))
+* Update ci.yml ([68a495d](https://github.com/dropecho/github_actions_test/commit/68a495d))
+* Update ci.yml ([ccb63f0](https://github.com/dropecho/github_actions_test/commit/ccb63f0))
+* Update ci.yml ([bafa66b](https://github.com/dropecho/github_actions_test/commit/bafa66b))
+* Update ci.yml ([1358c1e](https://github.com/dropecho/github_actions_test/commit/1358c1e))
+* Update ci.yml ([f1bf6bf](https://github.com/dropecho/github_actions_test/commit/f1bf6bf))
+* Update ci.yml ([6d8512e](https://github.com/dropecho/github_actions_test/commit/6d8512e))
+* Update ci.yml ([6d77276](https://github.com/dropecho/github_actions_test/commit/6d77276))
+* Update ci.yml ([53c5999](https://github.com/dropecho/github_actions_test/commit/53c5999))
+* Update ci.yml ([ba7bbe3](https://github.com/dropecho/github_actions_test/commit/ba7bbe3))
+* Update package.json ([e6b6c97](https://github.com/dropecho/github_actions_test/commit/e6b6c97))
 
 
 
