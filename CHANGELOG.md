@@ -1,3 +1,5 @@
+# [0.7.0](https://github.com/dropecho/github_actions_test/compare/0.6.0...0.7.0) (2020-08-15)
+
 # [0.6.0](https://github.com/dropecho/github_actions_test/compare/0.5.0...0.6.0) (2020-08-15)
 
 
