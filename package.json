@@ -1,6 +1,6 @@
 {
   "name": "@dropecho/github_actions_test",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "An example haxelib that outputs to multiple targets.",
   "author": "vantreeseba <vantreeseba@gmail.com>",
   "repository": "github:dropecho/github_actions_test",
