@@ -1,3 +1,5 @@
+# [0.2.0](https://github.com/dropecho/github_actions_test/compare/0.1.9...0.2.0) (2020-08-15)
+
 ## <small>0.1.10 (2020-08-15)</small>
 
 * FIX: Correct repo address in package.json ([4b09296](https://github.com/dropecho/github_actions_test/commit/4b09296))
@@ -23,6 +25,3 @@
 * Update ci.yml ([53c5999](https://github.com/dropecho/github_actions_test/commit/53c5999))
 * Update ci.yml ([ba7bbe3](https://github.com/dropecho/github_actions_test/commit/ba7bbe3))
 * Update package.json ([e6b6c97](https://github.com/dropecho/github_actions_test/commit/e6b6c97))
-
-
-
